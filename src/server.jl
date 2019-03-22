@@ -1,5 +1,6 @@
 using HTTP.Servers, Lazy, Sockets
 
+import HTTP.Servers: Server
 import HTTP.HandlerFunction
 import Base.Meta.isexpr
 import WebSockets
